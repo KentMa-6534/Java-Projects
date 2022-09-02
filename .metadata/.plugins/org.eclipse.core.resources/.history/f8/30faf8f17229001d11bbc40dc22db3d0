@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class main {
+	public static void main(String[]args) {
+		Scanner scan = new Scanner(System.in);
+		bottle b = new bottle();
+		int action;
+		do {
+		System.out.println("You see a bottle.\n You can:\n 1.) Open the bottle\n 2.) Close the bottle\n 3.)Take a closer look ");
+		action = scan.nextInt();
+		}while(action<=0 || action>=4);
+		switch(action) {
+		
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+public class main_gui {
+	public static void main(String[]args) {
+		bottle b = new bottle();
+		String action;
+		int num;
+		do {
+			action = JOptionPane.showInputDialog("You see a bottle.\n You can:\n 1.) Open the bottle\n 2.) Close the bottle\n 3.) Take a closer look ","Bottle");
+			num = Integer.parseInt(action);
+			}while(num<=0 || num>=4);
+	}
+}
